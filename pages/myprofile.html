@@ -1,0 +1,698 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Straight A's Tutor</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- MetisMenu CSS -->
+    <link href="../vendor/metisMenu/metisMenu.min.css" rel="stylesheet">
+<link href="https://gitcdn.github.io/bootstrap-toggle/2.2.2/css/bootstrap-toggle.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="../dist/css/sb-admin-2.css" rel="stylesheet">
+
+    <!-- Morris Charts CSS -->
+    <link href="../vendor/morrisjs/morris.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="../vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    
+    <link href="../dist/css/myprofile.css">
+    <link href="../dist/css/profile.css">
+  
+
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+    <div id="wrapper">
+
+        <!-- Navigation -->
+       
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">        
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html"><img src="../dist/img/logo.png" height=30 width=41></a>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">                 
+                    <li class="active"><a href="index.html"><span class="glyphicon glyphicon-home" aria-hidden="true"></span> Home</a></li>
+
+                        <li class="dropdown">                            
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown"
+                            role="button" aria-haspopup="true" aria-expanded="false">
+                            <span class="glyphicon glyphicon-search" 
+                                  aria-hidden="true"></span>   
+                            Find A Tutor <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="dictionary.html">Tutor Dictionary</a></li>
+                                <li role="separator" class="divider"></li>
+                                <li class="dropdown-header">Quick Find</li>
+                                <li><a href="search.html">Find By Name</a></li>
+                                <li><a href="searchschool.html">Find By Campus</a></li>
+                                <li><a href="searchloc.html">Find By Subject</a></li>
+                            </ul>     
+                            
+                        <li class="dropdown">                            
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown"
+                            role="button" aria-haspopup="true" aria-expanded="false">
+                            <span class="glyphicon glyphicon-list-alt" 
+                                  aria-hidden="true"></span>   
+                            How it Works <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="howwork.html">Quick Video</a></li>
+                                <li role="separator" class="divider"></li>
+                                <li class="dropdown-header">Introduction</li>
+                                <li><a href="help.html">Common Questions</a></li>
+                                <li><a href="contactus.html">Feedback</a></li>
+                            </ul>                              
+                                                       
+                                        <li><a href="courselist.html">
+                        <i class="glyphicon glyphicon-th-large"></i>Course Catalog</a></li>
+   
+                    <li class="#"><a href="aboutus.html"><span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span> About Us</a></li>   
+
+                    
+                    <li><a href="contactus.html">
+                        <i class="fa fa-envelope-o"></i>Contact Us</a></li>
+                    
+
+                        <li class="dropdown">                            
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown"
+                            role="button" aria-haspopup="true" aria-expanded="false">
+                            <span class="fa fa-question-circle fa-fw" 
+                                  aria-hidden="true"></span>   
+                            Help Center <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="help.html">Q & A</a></li>
+                                <li><a href="terms.html">Our Policy</a></li>                   
+                            </ul>                              
+
+                
+                </ul>
+ 
+                
+                <!-Right of NavBar-!>
+                <ul class="nav navbar-nav navbar-right">
+                    
+            
+                    <li><a href="signup.html">
+                    <span class="fa fa-user-plus"></span> Sign Up</a>
+                    </li>
+                              
+                    
+                    
+                    
+                 <li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                        <i class="fa fa-user fa-fw"></i> <i class="fa fa-caret-down"></i>
+                    </a>
+                    <ul class="dropdown-menu dropdown-user">
+                        <li><a href="myprofile.html"><i class="fa fa-user fa-fw"></i> User Profile</a>
+                        </li>
+                        <li><a href="#"><i class="fa fa-gear fa-fw"></i> Settings</a>
+                        </li>
+                        <li class="divider"></li>
+                        <li><a href="login.html"><i class="fa fa-sign-out fa-fw"></i> Logout</a>
+                        </li>
+                    </ul>
+                    <!-- /.dropdown-user -->
+                </li>               
+                
+                </ul>
+
+                
+                
+            </div>
+        </div>
+    </nav>         
+  
+<!--
+User Profile Sidebar by @keenthemes
+A component of Metronic Theme - #1 Selling Bootstrap 3 Admin Theme in Themeforest: http://j.mp/metronictheme
+Licensed under MIT
+-->
+
+<div class="container" style="margin-top:100px">
+
+    <div class="row profile">
+		<div class="col-md-2">
+			<div class="profile-sidebar">
+				<!-- SIDEBAR USERPIC -->
+				<div class="profile-userpic" align="center">
+					<img src="../dist/img/me.jpg" class="img-responsive" alt="">
+				</div>
+				<!-- END SIDEBAR USERPIC -->
+				<!-- SIDEBAR USER TITLE -->
+				<div class="profile-usertitle" >
+					<div class="profile-usertitle-name">
+                        <p align="center"><strong><h3>Mingqian Xu</h3></strong>
+					</div>
+					<div class="profile-usertitle-job">
+                        <p align="center"><h5>George Washington Uni.</h5>
+					</div>
+				</div>
+				<!-- END SIDEBAR USER TITLE -->
+				<!-- SIDEBAR BUTTONS -->
+				<div class="profile-userbuttons">
+					<button type="button" class="btn btn-success btn-sm">Check In</button>
+					<button type="button" class="btn btn-danger btn-sm">Message</button>
+				</div>
+				<!-- END SIDEBAR BUTTONS -->
+				<!-- SIDEBAR MENU -->
+          
+				<div class="profile-usermenu">   
+                    <ul class="nav nav-pills nav-stacked admin-menu" id="sidebar">
+                    
+                        <li class="active"><a href="" data-target-id="Overview"><i class="glyphicon glyphicon-home"></i> Overview</a></li>
+                   
+                        <li><a href="" data-target-id="actsetting"><i class="glyphicon glyphicon-cog"></i> Account Setting</a></li>
+                    
+                        <li><a href="help.html"><i class="glyphicon glyphicon-question-sign"></i> Help</a></li>
+                    
+                        <li><a href="login.html"><i class="glyphicon glyphicon-log-out"></i> Logout</a></li>
+                    </ul>
+                    
+				</div>
+				<!-- END MENU -->
+			</div>
+		</div>
+		<div class="col-md-7">        
+            <div class="container">       
+                <div class="col-md-7">     
+                    <div class="panel with-nav-tabs panel-info">           
+                        <div class="panel-heading"> 
+                            <ul class="nav nav-tabs" id="Overview">
+                                <li class="active"><a data-toggle="tab" href="#tab1info">Current Progress</a></li>
+                                <li><a data-toggle="tab" href="#tab2info" >History</a></li>
+                                <li><a data-toggle="tab"  href="#tab3info">Incoming Sessions</a></li>
+                                <li class="dropdown"><a href="#" data-toggle="dropdown">More <span class="caret"></span></a>
+                                    <ul class="dropdown-menu" role="menu">
+                                        <li><a href="#tab4info" data-toggle="tab">Switch a session</a></li>
+                                        <li><a href="#tab5info" data-toggle="tab">Delete a session</a></li>
+                                    </ul>
+                               </li>
+                            </ul>
+                        </div>      
+                        <div class="panel-body"> 
+                            <div class="tab-content">
+                        <div class="tab-pane fade active" id="tab1info">
+                            <div class="progress active">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 80%;">
+                                    <span class="sr-only">80% Complete</span>
+                                </div>
+                                <span class="progress-type"><strong>HCI</strong></span>
+                                <span class="progress-completed"><strong>80%</strong></span>
+                            </div>
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%">
+                                    <span class="sr-only">60% Complete </span>
+                                </div>
+                                <span class="progress-type"><strong>Algorithm</strong></span>
+                                <span class="progress-completed"><strong>60%</strong></span>
+                            </div>
+
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" style="width: 25%">
+                                    <span class="sr-only">25% Complete </span>
+                                </div>
+                                <span class="progress-type"><strong>Database</strong></span>
+                                <span class="progress-completed"><strong>25%</strong></span>
+                            </div>
+</div>
+                        <div class="tab-pane fade" id="tab2info">
+                            <div class="timeline-centered">
+                                <article class="timeline-entry">
+                                    <div class="timeline-entry-inner">
+                                        <div class="timeline-icon bg-success">
+                                            <i class="entypo-feather"></i>
+                                        </div>
+                                        <div class="timeline-label">
+                                            <h2><a href="mahone.html">Mahone</a>'s <a href="cs.html">Computer System </a><span>has been completed on 31st October, 2017</span></h2>
+                                            <p>Tolerably earnestly middleton extremely distrusts she boy now not. Add and offered prepare how cordial two promise. Greatly who affixed suppose but enquire compact prepare all put. Added forth chief trees but rooms think may.</p>
+                                        </div>
+                                    </div>
+                                </article>
+                                <article class="timeline-entry">
+                                    <div class="timeline-entry-inner">
+                                        <div class="timeline-icon bg-secondary">
+                                            <i class="entypo-suitcase"></i>
+                                        </div>
+                                        <div class="timeline-label">
+                                            <h3>Location</h3>
+                                            <p>You had met at <a href="https://www.georgetown.edu/locations.html"><strong>Georgetown University</strong></a>.</p>
+                                        </div>
+                                    </div>
+                                </article>
+
+                            </div>
+</div>
+                        <div class="tab-pane fade" id="tab3info">
+
+                            <div class="timeline-centered">
+                                <article class="timeline-entry">
+                                    <div class="timeline-entry-inner">
+                                        <div class="timeline-icon bg-success">
+                                            <i class="entypo-feather"></i>
+                                        </div>
+                                        <div class="timeline-label">
+                                            <h2>#1. <a href="bagwell.html">Bagwell</a>'s <a href="math.html">Linear Algebra </a><span>will start on 4th Dec, 2017</span></h2>
+                                            <p>Tolerably earnestly middleton extremely distrusts she boy now not. Add and offered prepare how cordial two promise. Greatly who affixed suppose but enquire compact prepare all put. Added forth chief trees but rooms think may.</p>
+                                        </div>
+                                    </div>
+                                </article>
+                                <article class="timeline-entry">
+                                    <div class="timeline-entry-inner">
+                                        <div class="timeline-icon bg-secondary">
+                                            <i class="entypo-suitcase"></i>
+                                        </div>
+                                        <div class="timeline-label">
+                                            <h3>Location</h3>
+                                            <p>You had met at <a href="https://www.gwu.edu/foggy-bottom-campus"><strong>Foggy Bottom</strong></a>.</p>
+                                        </div>
+                                    </div>
+                                </article>
+
+
+                            <div class="timeline-centered">
+                                <article class="timeline-entry">
+                                    <div class="timeline-entry-inner">
+                                        <div class="timeline-icon bg-success">
+                                            <i class="entypo-feather"></i>
+                                        </div>
+                                        <div class="timeline-label">
+                                            <h2>#2. <a href="john.html">Abruzzi</a>'s <a href="math.html">Web Design</a><span>will start on 30th Nov, 2017</span></h2>
+                                            <p>Tolerably earnestly middleton extremely distrusts she boy now not. Add and offered prepare how cordial two promise. Greatly who affixed suppose but enquire compact prepare all put. Added forth chief trees but rooms think may.</p>
+                                        </div>
+                                    </div>
+                                </article>
+                                <article class="timeline-entry">
+                                    <div class="timeline-entry-inner">
+                                        <div class="timeline-icon bg-secondary">
+                                            <i class="entypo-suitcase"></i>
+                                        </div>
+                                        <div class="timeline-label">
+                                            <h3>Location</h3>
+                                           <p>You had met at <a href="https://www.georgetown.edu/locations.html"><strong>Georgetown University</strong></a>.</p>
+                                        </div>
+                                    </div>
+                                </article>
+
+                            </div>
+
+                            </div>
+</div>
+                        <div class="tab-pane fade" id="tab4info">Click <a href="index.html">here</a> to see more details about how to switch a course or session.</div>
+                        <div class="tab-pane fade" id="tab5info">Click <a href="index.html">here</a> to see more details about how to delete a course or session.</div>
+                    </div>
+                        </div>
+                    </div>
+                                        
+                    <div class="panel with-nav-tabs panel-info">           
+                        <div class="panel-heading"> 
+                            <ul class="nav nav-tabs" id="actsetting">
+                        <li class="active"><a data-toggle="tab" href="#setting1">Profile</a></li>
+                        <li><a data-toggle="tab" href="#setting2" >Change Password</a></li>
+                        <li><a data-toggle="tab" href="#setting3">Preference</a></li>
+                            </ul>
+                        </div>   
+                        
+                        <div class="panel-body">
+                    
+                            <div class="tab-content">
+                        <div class="tab-pane fade active" id="setting1">
+                                                            
+                            <div class="panel panel-info" style="margin: 1em;">                      
+                                    <div class="panel-heading">                           
+                                        <h3 class="panel-title"><label for="new_password" class="control-label panel-title">Your name:</label></h3>                        
+                                    </div>
+                                    <div class="panel-body">                           
+                                        <div class="form-group">                               
+                                            <div class="col-sm-6">                                   
+                                                Mingqian Xu
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                                        <div class="panel panel-info" style="margin: 1em;">                      
+                                    <div class="panel-heading">                           
+                                        <h3 class="panel-title"><label for="new_password" class="control-label panel-title">Your gender:</label></h3>                        
+                                    </div>
+                                    <div class="panel-body">                           
+                                        <div class="form-group">                               
+                                            <div class="col-sm-6">                                   
+                                                Male
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                                        <div class="panel panel-info" style="margin: 1em;">                      
+                                    <div class="panel-heading">                           
+                                        <h3 class="panel-title"><label for="new_password" class="control-label panel-title">Your school:</label></h3>                        
+                                    </div>
+                                    <div class="panel-body">                           
+                                        <div class="form-group">                               
+                                            <div class="col-sm-6">                                   
+                                                George Washington University
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                                        <div class="panel panel-info" style="margin: 1em;">                      
+                                    <div class="panel-heading">                           
+                                        <h3 class="panel-title"><label for="new_password" class="control-label panel-title">Your major:</label></h3>                        
+                                    </div>
+                                    <div class="panel-body">                           
+                                        <div class="form-group">                               
+                                            <div class="col-sm-6">                                   
+                                                Computer Science
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            
+                        </div>
+        
+                        <div class="tab-pane fade" id="setting2">
+                                          
+                            <form action="/password" method="post">          
+                                <div class="panel panel-info" style="margin: 1em;">                      
+                                    <div class="panel-heading">                           
+                                        <h3 class="panel-title"><label for="new_password" class="control-label panel-title">New Password</label></h3>                        
+                                    </div>
+                                    <div class="panel-body">                           
+                                        <div class="form-group">                               
+                                            <div class="col-sm-10">                                   
+                                                <input type="password" class="form-control" name="password" id="new_password">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="panel panel-info" style="margin: 1em;">
+                                    <div class="panel-heading">
+                                        <h3 class="panel-title"><label for="confirm_password" class="control-label panel-title">Confirm password</label></h3>                   
+                                    </div>
+                       
+                                    <div class="panel-body">
+                            
+                                        <div class="form-group">
+                                
+                                            <div class="col-sm-10">
+                                    
+                                                <input type="password" class="form-control" name="password_confirmation" id="confirm_password" >
+                                
+                                            </div>
+                            
+                                        </div>
+                       
+                                    </div>
+                   
+                                </div>
+
+                    
+                                <div class="panel panel-info border" style="margin: 1em;">
+                        
+                                    <div class="panel-body">
+                            
+                                        <div class="form-group">
+                                
+                                            <div class="pull-left">
+                                    
+                                                <input type="submit" class="form-control btn btn-primary" name="submit" id="submit">
+                                
+                                            </div>
+                            
+                                        </div>
+                        
+                                    </div>
+                    
+                                </div>
+
+                
+                            </form>
+                
+                        </div>
+                        <div class="tab-pane fade" id="setting3">
+                            <h4>Would you like to receive notification from Staright A's Tutor?</h4><input type="checkbox" checked data-toggle="toggle" data-on="Yes" data-off="No" data-onstyle="success" data-offstyle="danger" data-width="100">
+                            <h4>Would you like to be notified for course deadline?</h4><input type="checkbox" checked data-toggle="toggle" data-on="Yes" data-off="No" data-onstyle="success" data-offstyle="danger" data-width="100">
+                            <h4>Do you allow us to use your study report?</h4><input type="checkbox" checked data-toggle="toggle" data-on="Allowed" data-off="Not Allowed" data-onstyle="success" data-offstyle="danger" data-width="100">
+                            <h4>What's your preferred way to participate?</h4><input type="checkbox" checked data-toggle="toggle" data-on="On-site" data-off="Online" data-onstyle="primary" data-offstyle="warning" data-width="100">
+                        </div>
+
+                            
+                            </div>
+
+                        </div>      
+     
+                    </div> 
+                
+                </div>
+                                  
+            </div>
+        </div>
+        <div class="col-md-3">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <i class="fa fa-bell fa-fw"></i> Notifications Panel
+                        </div>
+                        <!-- /.panel-heading -->
+                        <div class="panel-body">
+                            <div class="list-group">
+                                <a href="#" class="list-group-item">
+                                    <i class="fa fa-comment fa-fw"></i> New Comment
+                                    <span class="pull-right text-muted small"><em>4 minutes ago</em>
+                                    </span>
+                                </a>
+                                <a href="#" class="list-group-item">
+                                    <i class="fa fa-twitter fa-fw"></i> 3 Followers
+                                    <span class="pull-right text-muted small"><em>12 minutes ago</em>
+                                    </span>
+                                </a>
+                                <a href="#" class="list-group-item">
+                                    <i class="fa fa-envelope fa-fw"></i> Message Sent
+                                    <span class="pull-right text-muted small"><em>27 minutes ago</em>
+                                    </span>
+                                </a>
+                                <a href="#" class="list-group-item">
+                                    <i class="fa fa-tasks fa-fw"></i> New Task
+                                    <span class="pull-right text-muted small"><em>43 minutes ago</em>
+                                    </span>
+                                </a>
+                                <a href="#" class="list-group-item">
+                                    <i class="fa fa-upload fa-fw"></i> Server Rebooted
+                                    <span class="pull-right text-muted small"><em>11:32 AM</em>
+                                    </span>
+                                </a>
+                                <a href="#" class="list-group-item">
+                                    <i class="fa fa-bolt fa-fw"></i> Server Crashed!
+                                    <span class="pull-right text-muted small"><em>11:13 AM</em>
+                                    </span>
+                                </a>
+                                <a href="#" class="list-group-item">
+                                    <i class="fa fa-warning fa-fw"></i> Server Responding
+                                    <span class="pull-right text-muted small"><em>10:57 AM</em>
+                                    </span>
+                                </a>
+                                <a href="#" class="list-group-item">
+                                    <i class="fa fa-shopping-cart fa-fw"></i> New Order Placed
+                                    <span class="pull-right text-muted small"><em>9:49 AM</em>
+                                    </span>
+                                </a>
+                                <a href="#" class="list-group-item">
+                                    <i class="fa fa-money fa-fw"></i> Payment Received
+                                    <span class="pull-right text-muted small"><em>Yesterday</em>
+                                    </span>
+                                </a>
+                            </div>
+                            <!-- /.list-group -->
+                            <a href="#" class="btn btn-default btn-block">View All Alerts</a>
+                        </div>
+                        <!-- /.panel-body -->
+                    </div>
+                    <!-- /.panel -->
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <i class="fa fa-bar-chart-o fa-fw"></i> Donut Chart Example
+                        </div>
+                        <div class="panel-body">
+                            <div id="morris-donut-chart"></div>
+                            <a href="#" class="btn btn-default btn-block">View Details</a>
+                        </div>
+                        <!-- /.panel-body -->
+                    </div>
+                    <!-- /.panel -->
+                    <div class="chat-panel panel panel-default">
+                        <div class="panel-heading">
+                            <i class="fa fa-comments fa-fw"></i> Chat
+                            <div class="btn-group pull-right">
+                                <button type="button" class="btn btn-default btn-xs dropdown-toggle" data-toggle="dropdown">
+                                    <i class="fa fa-chevron-down"></i>
+                                </button>
+                                <ul class="dropdown-menu slidedown">
+                                    <li>
+                                        <a href="#">
+                                            <i class="fa fa-refresh fa-fw"></i> Refresh
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fa fa-check-circle fa-fw"></i> Available
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fa fa-times fa-fw"></i> Busy
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fa fa-clock-o fa-fw"></i> Away
+                                        </a>
+                                    </li>
+                                    <li class="divider"></li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fa fa-sign-out fa-fw"></i> Sign Out
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!-- /.panel-heading -->
+                        <div class="panel-body">
+                            <ul class="chat">
+                                <li class="left clearfix">
+                                    <span class="chat-img pull-left">
+                                        <img src="http://placehold.it/50/55C1E7/fff" alt="User Avatar" class="img-circle" />
+                                    </span>
+                                    <div class="chat-body clearfix">
+                                        <div class="header">
+                                            <strong class="primary-font">Jack Sparrow</strong>
+                                            <small class="pull-right text-muted">
+                                                <i class="fa fa-clock-o fa-fw"></i> 12 mins ago
+                                            </small>
+                                        </div>
+                                        <p>
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur bibendum ornare dolor, quis ullamcorper ligula sodales.
+                                        </p>
+                                    </div>
+                                </li>
+                                <li class="right clearfix">
+                                    <span class="chat-img pull-right">
+                                        <img src="http://placehold.it/50/FA6F57/fff" alt="User Avatar" class="img-circle" />
+                                    </span>
+                                    <div class="chat-body clearfix">
+                                        <div class="header">
+                                            <small class=" text-muted">
+                                                <i class="fa fa-clock-o fa-fw"></i> 13 mins ago</small>
+                                            <strong class="pull-right primary-font">Bhaumik Patel</strong>
+                                        </div>
+                                        <p>
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur bibendum ornare dolor, quis ullamcorper ligula sodales.
+                                        </p>
+                                    </div>
+                                </li>
+                                <li class="left clearfix">
+                                    <span class="chat-img pull-left">
+                                        <img src="http://placehold.it/50/55C1E7/fff" alt="User Avatar" class="img-circle" />
+                                    </span>
+                                    <div class="chat-body clearfix">
+                                        <div class="header">
+                                            <strong class="primary-font">Jack Sparrow</strong>
+                                            <small class="pull-right text-muted">
+                                                <i class="fa fa-clock-o fa-fw"></i> 14 mins ago</small>
+                                        </div>
+                                        <p>
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur bibendum ornare dolor, quis ullamcorper ligula sodales.
+                                        </p>
+                                    </div>
+                                </li>
+                                <li class="right clearfix">
+                                    <span class="chat-img pull-right">
+                                        <img src="http://placehold.it/50/FA6F57/fff" alt="User Avatar" class="img-circle" />
+                                    </span>
+                                    <div class="chat-body clearfix">
+                                        <div class="header">
+                                            <small class=" text-muted">
+                                                <i class="fa fa-clock-o fa-fw"></i> 15 mins ago</small>
+                                            <strong class="pull-right primary-font">Bhaumik Patel</strong>
+                                        </div>
+                                        <p>
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur bibendum ornare dolor, quis ullamcorper ligula sodales.
+                                        </p>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        <!-- /.panel-body -->
+                        <div class="panel-footer">
+                            <div class="input-group">
+                                <input id="btn-input" type="text" class="form-control input-sm" placeholder="Type your message here..." />
+                                <span class="input-group-btn">
+                                    <button class="btn btn-warning btn-sm" id="btn-chat">
+                                        Send
+                                    </button>
+                                </span>
+                            </div>
+                        </div>
+                        <!-- /.panel-footer -->
+                    </div>
+                    <!-- /.panel .chat-panel -->
+                </div>
+                <!-- /.col-lg-3 -->
+                
+	</div>
+</div>
+
+        
+        
+    </div>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+
+<script src="https://gitcdn.github.io/bootstrap-toggle/2.2.2/js/bootstrap-toggle.min.js"></script>
+    <script>
+$(document).ready(function()
+      {
+        var navItems = $('.admin-menu li > a');
+        var navListItems = $('.admin-menu li');
+        var allWells = $('.admin-content');
+        var allWellsExceptFirst = $('.admin-content:not(:first)');
+        allWellsExceptFirst.hide();
+        navItems.click(function(e)
+        {
+            e.preventDefault();
+            navListItems.removeClass('active');
+            $(this).closest('li').addClass('active');
+            allWells.hide();
+            var target = $(this).attr('data-target-id');
+            $('#' + target).show();
+        }); 
+});
+</script>
+    </body>
+</html>

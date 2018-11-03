@@ -1,0 +1,1 @@
+(function(){var a=[971000488],b="//www.gstatic.com/wcm/impl-1_23.js";if(window._googWcmAk){var c=parseInt(window._googWcmAk,10);if(0<=a.indexOf(c)||0>c%100)b="//www.gstatic.com/wcm/impl-1_26.js"}var d=document.createElement("script");d.async=1;d.src=b;var e=document.getElementsByTagName("script")[0];e.parentNode.insertBefore(d,e);}).call(this);

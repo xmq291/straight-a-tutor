@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="favicon.ico">
+
+    <title> Tutor Dictionary </title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link href="css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="../dist/css/dictionary.css" rel="stylesheet">
+      
+      
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="js/ie-emulation-modes-warning.js"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body padding-top="70px">
+         
+      <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">        
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html"><img src="../dist/img/logo.png"  height=30 width=41></a>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">                 
+                    <li class="active"><a href="index.html"><span class="glyphicon glyphicon-home" aria-hidden="true"></span> Home</a></li>
+
+                        <li class="dropdown">                            
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown"
+                            role="button" aria-haspopup="true" aria-expanded="false">
+                            <span class="glyphicon glyphicon-search" 
+                                  aria-hidden="true"></span>   
+                            Find A Tutor <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="dictionary.html">Tutor Dictionary</a></li>
+                                <li role="separator" class="divider"></li>
+                                <li class="dropdown-header">Quick Find</li>
+                                <li><a href="search.html">Find By Name</a></li>
+                                <li><a href="searchschool.html">Find By Campus</a></li>
+                                <li><a href="searchloc.html">Find By Subject</a></li>
+                            </ul>     
+                            
+                        <li class="dropdown">                            
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown"
+                            role="button" aria-haspopup="true" aria-expanded="false">
+                            <span class="glyphicon glyphicon-list-alt" 
+                                  aria-hidden="true"></span>   
+                            How it Works <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="howwork.html">Quick Video</a></li>
+                                <li role="separator" class="divider"></li>
+                                <li class="dropdown-header">Introduction</li>
+                                <li><a href="help.html">Common Questions</a></li>
+                                <li><a href="contactus.html">Feedback</a></li>
+                            </ul>                              
+                                                       
+                                        
+                    <li><a href="courselist.html">
+                        <i class="glyphicon glyphicon-th-large"></i>Course Catalog</a></li>
+                    
+                    <li class="#"><a href="aboutus.html"><span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span> About Us</a></li>   
+
+                    
+                    <li><a href="contactus.html">
+                        <i class="fa fa-envelope-o"></i>Contact Us</a></li>
+                    
+
+                        <li class="dropdown">                            
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown"
+                            role="button" aria-haspopup="true" aria-expanded="false">
+                            <span class="fa fa-question-circle fa-fw" 
+                                  aria-hidden="true"></span>   
+                            Help Center <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="help.html">Q & A</a></li>
+                                <li><a href="terms.html">Our Policy</a></li>                   
+                            </ul>                              
+
+                
+                </ul>
+ 
+                
+                <!-Right of NavBar-!>
+                <ul class="nav navbar-nav navbar-right">
+                    
+            
+                    <li><a href="signup.html">
+                    <span class="fa fa-user-plus"></span> Sign Up</a>
+                    </li>
+                              
+                    
+                    
+                    
+                 <li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                        <i class="fa fa-user fa-fw"></i> <i class="fa fa-caret-down"></i>
+                    </a>
+                    <ul class="dropdown-menu dropdown-user">
+                        <li><a href="myprofile.html"><i class="fa fa-user fa-fw"></i> User Profile</a>
+                        </li>
+                        <li><a href="myprofile.html"><i class="fa fa-gear fa-fw"></i> Settings</a>
+                        </li>
+                        <li class="divider"></li>
+                        <li><a href="login.html"><i class="fa fa-sign-out fa-fw"></i> Logout</a>
+                        </li>
+                    </ul>
+                    <!-- /.dropdown-user -->
+                </li>               
+                
+                </ul>
+
+                
+                
+            </div>
+        </div>
+    </nav>         
+   
+<div class="col-lg-12"><br><br><br><br></div>
+                     
+      <div class="row">
+            <div class="col-xs-12">
+                <ol class="breadcrumb">
+                    <li><a href="index.html">Home</a></li>
+                    <li class="active">Tutor Dictionary<li>              
+                </ol>        
+            </div>
+            
+            <div class="col-xs-12 col-sm-8">
+               <h3>Tutor Dictionary</h3>
+               <hr>
+            </div>
+      <div class="col-lg-10 col-lg-offset-1">
+        
+          <div class="item-listing small-padding-bg">
+                <div class="container">
+                    <div class="row">
+                    <div class="col-md-3"> <img src="../dist/img/scofield.jpeg" width="80%" alt=""> 
+                    </div>
+                    <div class="col-md-6 home-list-pop-desc inn-list-pop-desc"> 
+                        <a href="scofield.html"><h3>Micheal Scofield</h3></a>							
+                        <h4>George Washington University, Washington, DC.</h4>										
+                        <p><b>Speciality:</b> Algorithm Design, Java Programming</p>			
+                        <div class="list-number">									     
+                            <ul>										            
+                                <li>Cell Phone: +62 6541 1623</li>           
+                                <li>Email: ms@gwu.edu</li>										
+                            </ul>
+                        </div>         
+                        <div class="list-enquiry">							       
+                            <ul>											
+                                <li class="btn btn-md btn-warning"><a href="#!"><i class="fa fa-star-o" aria-hidden="true"></i> Write Review</a> </li>												
+                                <li class="btn btn-md btn-warning"><a href="#!"><i class="fa fa-commenting-o" aria-hidden="true"></i> Send SMS</a> </li>												
+                                <li class="btn btn-md btn-warning"><a href="#!"><i class="fa fa-phone" aria-hidden="true"></i> Call Now</a> </li>												
+                                <li class="btn btn-md btn-warning"><a href="#!" data-dismiss="modal" data-toggle="modal" data-target="#list-quo"><i class="fa fa-usd" aria-hidden="true"></i> Get Quotes</a> </li>				
+                            </ul>							
+                        </div>
+                    </div>
+                </div>
+                </div>
+          </div>
+                  
+          <div class="item-listing small-padding-bg">
+                <div class="container">
+                <div class="row">
+                    <div class="col-md-3"> <img src="../dist/img/lincoln.jpeg" width="80%" alt=""> 
+                    </div>
+                    <div class="col-md-6 home-list-pop-desc inn-list-pop-desc"> 
+                        <a href="burrows.html"><h3>Lincoln Burrows</h3></a>							
+                        <h4>Georgetown University, Washington, DC.</h4>										
+                        <p><b>Speciality:</b> SQL,MongoDB,DBMS</p>			
+                        <div class="list-number">									          
+                            <ul>										            
+                                <li>Cell Phone: +62 6541 6528</li>           
+                                <li>Email: lb@gwu.edu</li>										
+                            </ul>
+                        </div>         
+                        <div class="list-enquiry">							       
+                            <ul>											
+                                <li class="btn btn-md btn-warning"><a href="#!"><i class="fa fa-star-o" aria-hidden="true"></i> Write Review</a> </li>												
+                                <li class="btn btn-md btn-warning"><a href="#!"><i class="fa fa-commenting-o" aria-hidden="true"></i> Send SMS</a> </li>												
+                                <li class="btn btn-md btn-warning"><a href="#!"><i class="fa fa-phone" aria-hidden="true"></i> Call Now</a> </li>												
+                                <li class="btn btn-md btn-warning"><a href="#!" data-dismiss="modal" data-toggle="modal" data-target="#list-quo"><i class="fa fa-usd" aria-hidden="true"></i> Get Quotes</a> </li>				
+                            </ul>							
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+</div>
+ 
+          <div class="item-listing small-padding-bg">
+                <div class="container">
+                <div class="row">
+                    <div class="col-md-3"> <img src="../dist/img/sara.jpg" width="80%" alt=""> 
+                    </div>
+                    <div class="col-md-6 home-list-pop-desc inn-list-pop-desc"> 
+                        <a href="sara.html"><h3>Sara Tancredi</h3></a>							
+                        <h4>George Washington University, Washington, DC.</h4>										
+                        <p><b>Speciality:</b> Interface Design, Front-End Design, UX</p>			
+                        <div class="list-number">									          
+                            <ul>										            
+                                <li>Cell Phone: +62 6541 6528</li>           
+                                <li>Email: st@gwu.edu</li>										
+                            </ul>
+                        </div>         
+                        <div class="list-enquiry">							       
+                            <ul>											
+                                <li class="btn btn-md btn-warning"><a href="#!"><i class="fa fa-star-o" aria-hidden="true"></i> Write Review</a> </li>												
+                                <li class="btn btn-md btn-warning"><a href="#!"><i class="fa fa-commenting-o" aria-hidden="true"></i> Send SMS</a> </li>												
+                                <li class="btn btn-md btn-warning"><a href="#!"><i class="fa fa-phone" aria-hidden="true"></i> Call Now</a> </li>												
+                                <li class="btn btn-md btn-warning"><a href="#!" data-dismiss="modal" data-toggle="modal" data-target="#list-quo"><i class="fa fa-usd" aria-hidden="true"></i> Get Quotes</a> </li>				
+                            </ul>							
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+</div>
+                           
+          <div class="item-listing small-padding-bg">
+                <div class="container">
+                <div class="row">
+                    <div class="col-md-3"> <img src="../dist/img/bagwell.jpg" width="80%" alt=""> 
+                    </div>
+                    <div class="col-md-6 home-list-pop-desc inn-list-pop-desc"> 
+                        <a href="bagwell.html"><h3>Theordore Bagwell</h3></a>							
+                        <h4>George Washington University, Washington, DC.</h4>										
+                        <p><b>Speciality:</b> Linear Algebra</p>			
+                        <div class="list-number">									          
+                            <ul>										            
+                                <li>Cell Phone: +62 6541 6528</li>           
+                                <li>Email: tb@gwu.edu</li>										
+                            </ul>
+                        </div>         
+                        <div class="list-enquiry">							       
+                            <ul>											
+                                <li class="btn btn-md btn-warning"><a href="#!"><i class="fa fa-star-o" aria-hidden="true"></i> Write Review</a> </li>												
+                                <li class="btn btn-md btn-warning"><a href="#!"><i class="fa fa-commenting-o" aria-hidden="true"></i> Send SMS</a> </li>												
+                                <li class="btn btn-md btn-warning"><a href="#!"><i class="fa fa-phone" aria-hidden="true"></i> Call Now</a> </li>												
+                                <li class="btn btn-md btn-warning"><a href="#!" data-dismiss="modal" data-toggle="modal" data-target="#list-quo"><i class="fa fa-usd" aria-hidden="true"></i> Get Quotes</a> </li>				
+                            </ul>							
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+</div>
+                    
+          <div class="item-listing small-padding-bg">
+                <div class="container">
+                <div class="row">
+                    <div class="col-md-3"> <img src="../dist/img/kteacher.jpg" width="80%" alt=""> 
+                    </div>
+                    <div class="col-md-6 home-list-pop-desc inn-list-pop-desc"> 
+                        <a href="lee.html"><h3>Lee Tsing</h3></a>							
+                        <h4>George Washington University, Washington, DC.</h4>										
+                        <p><b>Speciality:</b> Korean</p>			
+                        <div class="list-number">									          
+                            <ul>										            
+                                <li>Cell Phone: +62 6541 6528</li>           
+                                <li>Email: lt@gwu.edu</li>										
+                            </ul>
+                        </div>         
+                        <div class="list-enquiry">							       
+                            <ul>											
+                                <li class="btn btn-md btn-warning"><a href="#!"><i class="fa fa-star-o" aria-hidden="true"></i> Write Review</a> </li>												
+                                <li class="btn btn-md btn-warning"><a href="#!"><i class="fa fa-commenting-o" aria-hidden="true"></i> Send SMS</a> </li>												
+                                <li class="btn btn-md btn-warning"><a href="#!"><i class="fa fa-phone" aria-hidden="true"></i> Call Now</a> </li>												
+                                <li class="btn btn-md btn-warning"><a href="#!" data-dismiss="modal" data-toggle="modal" data-target="#list-quo"><i class="fa fa-usd" aria-hidden="true"></i> Get Quotes</a> </li>				
+                            </ul>							
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+</div>
+                   
+          <div class="item-listing small-padding-bg">
+                <div class="container">
+                <div class="row">
+                    <div class="col-md-3"> <img src="../dist/img/bp.jpg" width="80%" alt=""> 
+                    </div>
+                    <div class="col-md-6 home-list-pop-desc inn-list-pop-desc"> 
+                        <a href="bp.html"><h3>Brandon Paul</h3></a>							
+                        <h4>George Washington University, Washington, DC.</h4>										
+                        <p><b>Speciality:</b> Interface Design, Front-End Design, UX</p>			
+                        <div class="list-number">									          
+                            <ul>										            
+                                <li>Cell Phone: +62 6541 6528</li>           
+                                <li>Email: st@gwu.edu</li>										
+                            </ul>
+                        </div>         
+                        <div class="list-enquiry">							       
+                            <ul>											
+                                <li class="btn btn-md btn-warning"><a href="#!"><i class="fa fa-star-o" aria-hidden="true"></i> Write Review</a> </li>												
+                                <li class="btn btn-md btn-warning"><a href="#!"><i class="fa fa-commenting-o" aria-hidden="true"></i> Send SMS</a> </li>												
+                                <li class="btn btn-md btn-warning"><a href="#!"><i class="fa fa-phone" aria-hidden="true"></i> Call Now</a> </li>												
+                                <li class="btn btn-md btn-warning"><a href="#!" data-dismiss="modal" data-toggle="modal" data-target="#list-quo"><i class="fa fa-usd" aria-hidden="true"></i> Get Quotes</a> </li>				
+                            </ul>							
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+</div>
+                  
+          <div class="item-listing small-padding-bg">
+                <div class="container">
+                <div class="row">
+                    <div class="col-md-3"> <img src="../dist/img/abruzzi.jpg" width="80%" alt=""> 
+                    </div>
+                    <div class="col-md-6 home-list-pop-desc inn-list-pop-desc"> 
+                        <a href="john.html"><h3>John Abruzzi</h3></a>							
+                        <h4>Georgetown University, Washington, DC.</h4>										
+                        <p><b>Speciality:</b> Interface Design, Website Maintanance</p>			
+                        <div class="list-number">									          
+                            <ul>										            
+                                <li>Cell Phone: +62 6541 6528</li>           
+                                <li>Email: ja@gwu.edu</li>										
+                            </ul>
+                        </div>         
+                        <div class="list-enquiry">							       
+                            <ul>											
+                                <li class="btn btn-md btn-warning"><a href="#!"><i class="fa fa-star-o" aria-hidden="true"></i> Write Review</a> </li>												
+                                <li class="btn btn-md btn-warning"><a href="#!"><i class="fa fa-commenting-o" aria-hidden="true"></i> Send SMS</a> </li>												
+                                <li class="btn btn-md btn-warning"><a href="#!"><i class="fa fa-phone" aria-hidden="true"></i> Call Now</a> </li>												
+                                <li class="btn btn-md btn-warning"><a href="#!" data-dismiss="modal" data-toggle="modal" data-target="#list-quo"><i class="fa fa-usd" aria-hidden="true"></i> Get Quotes</a> </li>				
+                            </ul>							
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+</div>
+
+          <div class="item-listing small-padding-bg">
+                <div class="container">
+                <div class="row">
+                    <div class="col-md-3"> <img src="../dist/img/mahone.jpeg" width="80%" alt=""> 
+                    </div>
+                    <div class="col-md-6 home-list-pop-desc inn-list-pop-desc"> 
+                        <a href="mahone.html"><h3>Alexander Mahone</h3></a>							
+                        <h4>Georgetown University, Washington, DC.</h4>										
+                        <p><b>Speciality:</b>Computer System</p>			
+                        <div class="list-number">									          
+                            <ul>										            
+                                <li>Cell Phone: +62 6541 6528</li>           
+                                <li>Email: am@gwu.edu</li>										
+                            </ul>
+                        </div>         
+                        <div class="list-enquiry">							       
+                            <ul>											
+                                <li class="btn btn-md btn-warning"><a href="#!"><i class="fa fa-star-o" aria-hidden="true"></i> Write Review</a> </li>												
+                                <li class="btn btn-md btn-warning"><a href="#!"><i class="fa fa-commenting-o" aria-hidden="true"></i> Send SMS</a> </li>												
+                                <li class="btn btn-md btn-warning"><a href="#!"><i class="fa fa-phone" aria-hidden="true"></i> Call Now</a> </li>												
+                                <li class="btn btn-md btn-warning"><a href="#!" data-dismiss="modal" data-toggle="modal" data-target="#list-quo"><i class="fa fa-usd" aria-hidden="true"></i> Get Quotes</a> </li>				
+                            </ul>							
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+</div>
+                  
+          <div class="item-listing small-padding-bg">
+                <div class="container">
+                <div class="row">
+                    <div class="col-md-3"> <img src="../dist/img/brad.jpg" width="80%" alt=""> 
+                    </div>
+                    <div class="col-md-6 home-list-pop-desc inn-list-pop-desc"> 
+                        <a href="brad.html"><h3>Brad Bellick</h3></a>							
+                        <h4>Georgetown University, Washington, DC.</h4>										
+                        <p><b>Speciality:</b> System Design, Object-Oriented Design/<p>			
+                        <div class="list-number">									          
+                            <ul>										            
+                                <li>Cell Phone: +62 6541 1267</li>           
+                                <li>Email: bb@gwu.edu</li>										
+                            </ul>
+                        </div>         
+                        <div class="list-enquiry">							       
+                            <ul>											
+                                <li class="btn btn-md btn-warning"><a href="#!"><i class="fa fa-star-o" aria-hidden="true"></i> Write Review</a> </li>												
+                                <li class="btn btn-md btn-warning"><a href="#!"><i class="fa fa-commenting-o" aria-hidden="true"></i> Send SMS</a> </li>												
+                                <li class="btn btn-md btn-warning"><a href="#!"><i class="fa fa-phone" aria-hidden="true"></i> Call Now</a> </li>												
+                                <li class="btn btn-md btn-warning"><a href="#!" data-dismiss="modal" data-toggle="modal" data-target="#list-quo"><i class="fa fa-usd" aria-hidden="true"></i> Get Quotes</a> </li>				
+                            </ul>							
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+</div>          
+      </div>
+
+    </body>
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+</html>
